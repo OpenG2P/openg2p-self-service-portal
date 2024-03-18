@@ -49,8 +49,8 @@
                                             </div>
                                             <div class="col-md-4" style="display:flex; align-items:center;">
                                                     <button
-                                                    data-toggle="modal"
-                                                    data-target="#BeneficiaryDetailModal"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#BeneficiaryDetailModal"
                                                     type="button"
                                                     class="beneficiary-detail-btn"
                                                 >
@@ -223,7 +223,7 @@
                                                             <button
                                                                 type="button"
                                                                 class="btn btn-outline-primary modal-cancel-button"
-                                                                data-dismiss="modal"
+                                                                data-bs-dismiss="modal"
                                                             >
                                                                 Close
                                                             </button>
@@ -260,16 +260,16 @@
 
                                     <div class="card-body" style="padding: 20px;">
                                         <button
-                                            data-toggle="modal"
-                                            data-target="#SubmitModal"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#SubmitModal"
                                             type="button"
-                                            class="btn btn-primary btn-lg btn-block form_submit_action"
+                                            class="btn btn-primary btn-lg btn-block w-100 form_submit_action"
                                         >
                                             Submit
                                         </button>
                                         <button
                                             type="button"
-                                            class="btn btn-outline-primary btn-lg btn-block form_cancel_action"
+                                            class="btn btn-outline-primary btn-lg btn-block w-100 form_cancel_action"
                                             onclick="location.href = '/serviceprovider/home';"
                                         >
                                             Cancel
@@ -301,7 +301,7 @@
                                                         <button
                                                             type="button"
                                                             class="btn btn-outline-primary modal-cancel-button"
-                                                            data-dismiss="modal"
+                                                            data-bs-dismiss="modal"
                                                         >
                                                             Cancel
                                                         </button>
